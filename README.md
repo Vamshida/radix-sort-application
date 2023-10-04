@@ -24,15 +24,15 @@ This application is compatible with various operating systems, including Windows
 3. **Clone the Repository:** Clone this repository to your local machine using Git:
 
    ```bash
-   git clone https://github.com/your-username/radix-sort-application.git
+   git clone https://github.com/Vamshida/radix-sort-application.git
    
 ### Build the Application: 
 Navigate to the project directory:
 
--cd radix-sort-application
+cd radix-sort-application
 
 ### Build the application using Maven:
--mvn clean package
+mvn clean package
 This will compile the source code and create an executable JAR file.
 
 ### How to Use the Application
