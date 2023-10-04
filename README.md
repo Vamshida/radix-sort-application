@@ -38,7 +38,9 @@ This will compile the source code and create an executable JAR file.
 ### How to Use the Application
 
 ## Running the Application
+
 After successfully building the application, you can run it using the following command:
+
 java -jar target/radix-sort-application.jar
 
 Sorting a List of Integers
