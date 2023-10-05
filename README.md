@@ -29,7 +29,6 @@ This application is compatible with various operating systems, including Windows
 ### Build the Application: 
 Navigate to the project directory:
 
-cd radix-sort-application
 
 ### Build the application using Maven:
 mvn clean package
