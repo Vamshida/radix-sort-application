@@ -1,49 +1,22 @@
-# Radix Sort Application
+# Radix Sort in Java
 
-## Problem Statement
+This Java program demonstrates the Radix Sort algorithm, which is a non-comparative sorting algorithm used to sort integers. Radix Sort is based on the idea of sorting integers by their individual digits. It sorts numbers by processing individual digits from the least significant digit (LSD) to the most significant digit (MSD) or vice versa.
 
-This application demonstrates the Radix Sort algorithm for sorting a list of integers. Radix Sort is a non-comparative sorting algorithm that works by processing individual digits of the numbers in the list. It is useful for sorting integers, especially when the numbers have a fixed number of digits or have approximately the same number of digits.
+## How Radix Sort Works
 
-## Setup Instructions
+1. Find the maximum number to determine the number of digits.
+2. Create temporary arrays for counting and the sorted output.
+3. Perform counting sort for every digit, starting from the LSD.
+4. Build the sorted output array by placing elements in their correct positions.
+5. Repeat the above steps for each digit place (units, tens, hundreds, etc.).
 
-### Prerequisites
+## Usage
 
-- Java Development Kit (JDK) 8 or higher
-- Apache Maven (for building and running the application)
+To run this Radix Sort program:
 
-### OS Compatibility
+1. Make sure you have Java installed on your system.
 
-This application is compatible with various operating systems, including Windows, macOS, and Linux.
+2. Compile the Java program:
 
-### Installation Steps
-
-1. **Java Development Kit (JDK):** Ensure that you have Java JDK 8 or a higher version installed on your system. You can download and install it from the official Oracle website (https://www.oracle.com/java/technologies/javase-downloads.html) or use an OpenJDK distribution.
-
-2. **Apache Maven (Maven):** If you don't have Maven installed, you can download it from the official Apache Maven website (https://maven.apache.org/download.cgi) and follow the installation instructions for your platform.
-
-3. **Clone the Repository:** Clone this repository to your local machine using Git:
-
-   ```bash
-   git clone https://github.com/Vamshida/radix-sort-application.git
-   
-### Build the Application: 
-Navigate to the project directory:
-
-
-### Build the application using Maven:
-mvn clean package
-This will compile the source code and create an executable JAR file.
-
-### How to Use the Application
-
-## Running the Application
-
-After successfully building the application, you can run it using the following command:
-
-java -jar target/radix-sort-application.jar
-
-Sorting a List of Integers
-The application includes a sample list of integers that will be sorted using the Radix Sort algorithm. You can modify the list as needed in the main method of the radixSort class.
-
-To sort your own list of integers, simply replace the elements in the ArrayList with your desired values.
-Run the application, and it will display the sorted list of integers in ascending order using the Radix Sort algorithm.
+   ```sh
+   javac radixSort.java
